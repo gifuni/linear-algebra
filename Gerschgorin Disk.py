@@ -18,7 +18,8 @@ for i in range(0,n):
     lst.append(A.item(i,i))
     lstr.append(np.sum(np.absolute(A[i])-np.absolute(A.item(i,i))
     
-
+#Create representation of Gergorin disks with malplotlib tool
+                       #Under construction
 circle1 = plt.Circle((lst[0], 0), lstr[0], color='r', clip_on=False)
 circle2 = plt.Circle((lst[1], 0), lstr[1], color='blue', clip_on=False)
 circle3 = plt.Circle((lst[2], 0), lstr[2], color='g', clip_on=False)
